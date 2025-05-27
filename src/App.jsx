@@ -99,7 +99,7 @@ function App() {
               {todo?.todo}
             </h3>
 
-            <div className="flex gap-4 text-white [&>button]:p-2 [&>button]:rounded-md [&>button]:cursor-pointer">
+            <section className="flex gap-4 text-white [&>button]:p-2 [&>button]:rounded-md [&>button]:cursor-pointer">
               <button
                 className="bg-[#222]"
                 onClick={() =>
@@ -116,7 +116,7 @@ function App() {
               >
                 Delete
               </button>
-            </div>
+            </section>
           </section>
         ))}
       </section>
